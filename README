@@ -1,0 +1,26 @@
+# Premium Nischitardham Digital Invitation
+
+This repository contains the source code for a premium digital Nischitardham invitation card, designed specifically for GitHub Pages deployment.
+
+## Features
+- **Dual Language**: Seamless instant toggle between Telugu (default) and English.
+- **Independent Layouts**: Content is naturally structured for each language's conventions.
+- **Zero Dependencies**: Pure HTML5, CSS3, and Vanilla JavaScript. No build step required.
+- **Interactive Forms**: Google Calendar integration (pre-filled), Google Maps directions, and link copying.
+- **Responsive**: Fully optimized for mobile, tablet, and desktop viewing.
+
+## File Structure
+- `index.html` - The single-page layout.
+- `css/styles.css` - Premium styling, typography, colors, and responsive rules.
+- `js/config.js` - Easy-to-update variables for date, time, venue, and map links.
+- `js/translations.js` - Hardcoded Telugu and English structural strings.
+- `js/app.js` - Logic for language switching, LocalStorage caching, and button interactions.
+- `assets/` - Contains the refined Ganesha line-art SVG.
+
+## Local Testing
+You can test this project by simply opening `index.html` in your web browser. Due to using purely frontend technologies and separate `<script>` tags, it avoids CORS issues during local file testing.
+
+## Updating Content
+- **To update the textual names or invitation message**: Edit `js/translations.js`.
+- **To update the Google Calendar / Maps links**: Edit `js/config.js`. 
+- **To modify the colors or fonts**: Edit the CSS variables at the top of `css/styles.css`.
